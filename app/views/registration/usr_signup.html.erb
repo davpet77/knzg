@@ -1,0 +1,44 @@
+<% provide(:usr_signup, "active") %>
+
+<div id="login">
+
+<form action= '/register' class='validate-form' method='post'>
+		<form class="form-vertical well well-raised clearfix" />
+			<fieldset>
+				<legend>Signup for an Account</legend>
+				<small class="help-block">Enter your personal information:</small>
+				<div class="control-group">
+					<label for="usrName" class="control-label">User Name</label>
+					<div class="controls">
+						<input type="text" id="usr_name" name="usr_name" class="input-full" autofocus="autofocus" />
+					</div>
+				</div>
+				<small class="help-block">Enter your account information:</small>
+				<div class="control-group">
+					<label for="email" class="control-label">Email</label>
+					<div class="controls">
+						<input type="email" id="usr_email" name="usr_email" class="input-full" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label for="password" class="control-label">Password</label>
+					<div class="controls">
+						<input type="password" id="password" name="password" class="input-full" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label for="passwordRepeat" class="control-label">Repeat Password</label>
+					<div class="controls">
+						<input type="password" id="password_confirmation" name="password_confirmation" class="input-full" />
+					</div>
+				</div>
+				<div class="form-actions align-center">
+					<button type="submit" class="btn btn-primary btn-large btn-block">
+						Register Your Account Now
+					</button>
+				</div>
+			</fieldset>
+		</form>
+		</form>
+	</div>
+	<br /><br />

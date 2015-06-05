@@ -1,0 +1,150 @@
+/* Custom CSS for the example pages */
+
+footer {
+    margin-top: 20px;
+    padding: 30px;
+    background: #d2d2d2;
+    border-top: 1px solid #999;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.4);
+}
+
+footer .social .btn {
+    width: 24px;
+    margin: 4px;
+}
+/* Styles for the Blog */
+
+#main {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    height: 100px;
+    padding-top: 250px;
+    color: #fff;
+}
+#main h1 {
+    color: #fff;
+}
+
+
+
+/* Styles for the Login Page */
+
+#login {
+    margin: 80px auto 30px;
+    width: 80%;
+    min-width: 280px;
+    max-width: 400px;
+
+}
+
+
+
+/* Styles for the Style Gallery */
+
+#jumbotron {
+    line-height: normal;
+    color: #333;
+}
+
+#buttons .btn,
+#buttons .btn-group,
+#labels .label,
+#badges .badge {
+    display: inline-block;
+    margin: 5px 1px;
+}
+#buttons .btn-group .btn {
+    margin: 0;
+}
+
+#buttons td,
+#buttons th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#icons ul {
+    list-style: none;
+}
+
+#icons li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    line-height: normal;
+}
+
+.section-header {
+    padding-top: 60px;
+}
+
+/* Animation to demonstrate the progress bars */
+@-webkit-keyframes progress {
+    0% {
+        width: 3%;
+    }
+    80% {
+        width: 99.9%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.animate {
+    -webkit-animation-name: progress;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+}
+.animate.slow {
+    -webkit-animation-duration: 12s;
+}
+.animate.fast {
+    -webkit-animation-duration: 4s;
+}
+.animate.medium {
+    -webkit-animation-duration: 6s;
+}
+.animate.verySlow {
+    -webkit-animation-duration: 16s;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+
+  background-color: #09f467;
+    *background-color: #7efe93;
+  border-color: #f900fc;
+  color: #f9fc00;
+ }
+
+.btn
+{
+  
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #05611d;
+  *background-color: #0044cc;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08f046), to(#05611d));
+  background-image: -webkit-linear-gradient(top, #08f046, #05611d);
+  background-image: -o-linear-gradient(top, #08f046, #05611d);
+  background-image: linear-gradient(to bottom, #08f046, #05611d);
+  background-image: -moz-linear-gradient(top, #08f046, #05611d);
+  background-repeat: repeat-x;
+  border-color: #05611d #05611d #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+.fa-cog {
+  color: red;
+}
+
+.well h2{
+	 font-size: 18px; line-height: 1.3; margin: 1em 0 .2em; 
+}

@@ -1,0 +1,37 @@
+<% content_for :side_body do %>
+  
+  
+
+       <div class="span4">
+				<aside id="sidebar" class="well">
+
+				<% #the line below gets any code written in the blog side body in the admin refinerycms login %>
+				<% #= yield(:side_body_prepend) %>
+
+  <%= render "/refinery/blog/shared/rss_feed" %>
+  <%= render "/refinery/blog/shared/categories" %>
+  <%= render "/refinery/blog/shared/tags" %>
+  <%= render "/refinery/blog/shared/posts" %>
+  <%= blog_archive_widget %>
+  <p></p>
+
+					
+				</aside>
+				<form class="well" />
+					<fieldset>
+						<legend>Newsletter</legend>
+						<small class="help-block">Sign up for our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!</small>
+						<div class="control-group">
+							<div class="controls">
+								<input id="appendedInputButton" type="email" class="input-full" placeholder="Email" />
+							</div>
+						</div>
+						<button class="btn btn-primary btn-large" type="button">Subscribe</button>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+  
+  <%= yield(:side_body_append) %>
+<% end %>

@@ -1,0 +1,40 @@
+<% provide(:usr_login, "active") %>
+
+<div id="login">
+
+<form action= '/login' class='validate-form' method='post'>
+		<form class="form-vertical well well-raised clearfix" />
+		
+			<fieldset>
+				<legend>User Login <small class="pull-right">Need an account? <a href="usr_signup.html">Sign Up</a></small></legend>
+				<div class="control-group">
+					<label for="email" class="control-label">Email</label>
+					<div class="controls">
+						<input type="email" id="usr_email" name="usr_email" class="input-full" autofocus="autofocus" />
+					</div>
+				</div>
+					<div class="control-group">
+					<label for="username" class="control-label">User Name</label>
+					<div class="controls">
+						<input type="text" id="usr_name" name="usr_name" class="input-full" autofocus="autofocus" />
+					</div>
+				</div>				<div class="control-group">
+					<label for="password" class="control-label">Password</label>
+					<div class="controls">
+						<input type="password" id="password" name="password" class="input-full" />
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary btn-large pull-right">
+					Sign In
+				</button>
+				<label class="checkbox inline">
+					<input type="checkbox" /> Stay logged in.
+				</label>
+			</fieldset>
+		</form>
+		</form>
+	</div>
+	<div class="row align-center">
+		Forgot your password? <a href='#'>Click Here</a>
+	</div>
+
