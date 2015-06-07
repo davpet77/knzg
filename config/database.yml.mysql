@@ -1,16 +1,4 @@
-development: &development
-  adapter: mysql2
-  host: localhost
-  username: root
-  password:
-  database: <%= Rails.application.engine_name.gsub(/_application/,'').downcase %>_development
 
-test: &test
-  adapter: mysql2
-  host: localhost
-  username: root
-  password:
-  database: <%= Rails.application.engine_name.gsub(/_application/,'').downcase %>_test
 
 production: &production
   adapter: mysql2
@@ -18,3 +6,13 @@ production: &production
   database: <%= Rails.application.engine_name.gsub(/_application/,'').downcase %>_production
   username: your_production_database_login
   password: your_production_database_password
+
+adapter: mysql
+  encoding: utf8
+  database: knzg_production
+  username: deploy
+  password: 
+  socket: /tmp/mysql.sock
+  pool: 5
+  host: 128.199.124.158
+  #port: 3306         
