@@ -1,13 +1,4 @@
 
 
-production: &production
- 
-  adapter: mysql
-  encoding: utf8
-  database: knzg_production
-  username: deploy
-  password: 
-  socket: /tmp/mysql.sock
-  pool: 5
-  host: 128.199.124.158
-  #port: 3306         
+
+

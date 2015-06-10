@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -88,3 +89,4 @@ gem 'refinerycms-image_slideshows', git: 'https://github.com/bisscomm/refinerycm
 
 #gem 'refinerycms-videojs', git: 'https://github.com/adexin-team/refinerycms-videojs', branch: 'master'
 
+#gem 'devise'
