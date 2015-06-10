@@ -51,6 +51,8 @@ set :deploy_via, :copy
 # set :keep_releases, 5
 set :linked_files, %w(config/database.yml)
 
+set :rvm_type, :system
+
 namespace :deploy do
 
   after :restart, :clear_cache do
