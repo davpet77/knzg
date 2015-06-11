@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 521324391bafafb5518f9cc42d1f549da10907e7
+  revision: 29ab03669a0bdba34c789442df1402f6df06e929
   branch: master
   specs:
     refinerycms (3.0.0)
@@ -148,7 +148,7 @@ GEM
     acts_as_indexed (0.8.3)
     addressable (2.3.8)
     arel (6.0.0)
-    autoprefixer-rails (5.1.11)
+    autoprefixer-rails (5.2.0)
       execjs
       json
     awesome_nested_set (3.0.2)
@@ -202,7 +202,7 @@ GEM
     globalize (5.0.1)
       activemodel (>= 4.2.0, < 4.3)
       activerecord (>= 4.2.0, < 4.3)
-    i18n (0.6.9)
+    i18n (0.7.0)
     jbuilder (2.2.16)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -212,15 +212,15 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
-    json (1.8.2)
+    json (1.8.3)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.5)
+    mime-types (2.6.1)
     mini_portile (0.6.2)
-    minitest (5.6.1)
-    multi_json (1.8.2)
+    minitest (5.7.0)
+    multi_json (1.11.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -293,7 +293,7 @@ GEM
       rdoc (~> 4.0)
     seo_meta (2.0.0.rc.1)
       railties (>= 3.0.0)
-    sprockets (3.1.0)
+    sprockets (3.2.0)
       rack (~> 1.0)
     sprockets-rails (2.3.1)
       actionpack (>= 3.0)
@@ -335,7 +335,6 @@ DEPENDENCIES
   byebug
   capistrano (~> 3.4.0)
   coffee-rails (~> 4.1.0)
-  devise
   font-awesome-sass (~> 4.3.0)
   jbuilder (~> 2.0)
   jquery-rails
